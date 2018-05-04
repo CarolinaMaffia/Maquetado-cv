@@ -151,7 +151,7 @@ span{
      content: '';
     display: block;
     background: #009688;
-    width: 80%;
+    width: 90%;
     height: 100%;
     border-radius: 9px;
 }
@@ -187,7 +187,7 @@ span{
     content: '';
     display: block;
     background: #009688;
-    width: 70%;
+    width: 80%;
     height: 100%;
     border-radius: 9px;
 }
@@ -246,4 +246,17 @@ a:visited{
 
 a:active{
     color: white;
+}
+
+/* resp */
+
+@media only screen and (min-width: 1200px) {
+    .title-name{
+        position: absolute;
+        top: 410px;
+    }
+
+    .left-column{
+        margin-bottom: 1%;
+    }
 }
