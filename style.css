@@ -250,13 +250,3 @@ a:active{
 
 /* resp */
 
-@media only screen and (min-width: 1200px) {
-    .title-name{
-        position: absolute;
-        top: 410px;
-    }
-
-    .left-column{
-        margin-bottom: 1%;
-    }
-}
